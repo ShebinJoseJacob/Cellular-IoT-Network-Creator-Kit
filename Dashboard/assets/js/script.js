@@ -649,7 +649,7 @@ window.addEventListener('DOMContentLoaded', function() {
 
   const kit_uid = container.getAttribute('kit_id');
 
-  const client = mqtt.connect('ws://test.mosquitto.org:8081', {
+  const client = mqtt.connect('wss://test.mosquitto.org:8081', {
     clientId: 'javascript'
   });
 
